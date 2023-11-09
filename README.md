@@ -208,6 +208,16 @@ while ( true ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/ndarray-iter/column-entries`][@stdlib/ndarray/iter/column-entries]</span><span class="delimiter">: </span><span class="description">create an iterator which returns \[index, column] pairs for each column in a matrix (or stack of matrices).</span>
+-   <span class="package-name">[`@stdlib/ndarray-iter/entries`][@stdlib/ndarray/iter/entries]</span><span class="delimiter">: </span><span class="description">create an iterator which returns \[index, value] pairs for each element in a provided ndarray.</span>
+-   <span class="package-name">[`@stdlib/ndarray-iter/matrices`][@stdlib/ndarray/iter/matrices]</span><span class="delimiter">: </span><span class="description">create an iterator which iterates over each matrix in a stack of matrices.</span>
+-   <span class="package-name">[`@stdlib/ndarray-iter/row-entries`][@stdlib/ndarray/iter/row-entries]</span><span class="delimiter">: </span><span class="description">create an iterator which returns \[index, row] pairs for each row in a matrix (or stack of matrices).</span>
+-   <span class="package-name">[`@stdlib/ndarray-slice`][@stdlib/ndarray/slice]</span><span class="delimiter">: </span><span class="description">return a read-only view of an input ndarray.</span>
+
 </section>
 
 <!-- /.related -->
@@ -283,9 +293,21 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
 
-[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/stdlib
+[@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor
 
-[@stdlib/ndarray/slice]: https://github.com/stdlib-js/stdlib
+[@stdlib/ndarray/slice]: https://github.com/stdlib-js/ndarray-slice
+
+<!-- <related-links> -->
+
+[@stdlib/ndarray/iter/column-entries]: https://github.com/stdlib-js/ndarray-iter-column-entries
+
+[@stdlib/ndarray/iter/entries]: https://github.com/stdlib-js/ndarray-iter-entries
+
+[@stdlib/ndarray/iter/matrices]: https://github.com/stdlib-js/ndarray-iter-matrices
+
+[@stdlib/ndarray/iter/row-entries]: https://github.com/stdlib-js/ndarray-iter-row-entries
+
+<!-- </related-links> -->
 
 </section>
 
