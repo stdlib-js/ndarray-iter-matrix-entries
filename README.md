@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import nditerMatrixEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter-matrix-entries@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-iter-matrix-entries/tags). For example,
+
+```javascript
 import nditerMatrixEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter-matrix-entries@v0.2.0-deno/mod.js';
 ```
 
@@ -154,7 +159,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@deno/mod.js';
-import nditerMatrixEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter-matrix-entries@v0.2.0-deno/mod.js';
+import nditerMatrixEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter-matrix-entries@deno/mod.js';
 
 // Define an input array:
 var x = array( zeroTo( 27 ), {
