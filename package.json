@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-iter-matrix-entries",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Create an iterator which returns [index, matrix] pairs for each matrix in a stack of matrices.",
   "license": "Apache-2.0",
   "author": {
