@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import nditerMatrixEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter-matrix-entries@esm/index.mjs';
+import nditerMatrixEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter-matrix-entries@v0.2.4-esm/index.mjs';
 ```
 
 #### nditerMatrixEntries( x\[, options] )
@@ -159,7 +159,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@esm/index.mjs';
-import nditerMatrixEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter-matrix-entries@esm/index.mjs';
+import nditerMatrixEntries from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-iter-matrix-entries@v0.2.4-esm/index.mjs';
 
 // Define an input array:
 var x = array( zeroTo( 27 ), {
